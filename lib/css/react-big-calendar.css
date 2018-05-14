@@ -647,7 +647,7 @@ button.rbc-input::-moz-focus-inner {
 .rbc-ruler-label {
   padding: 0;
   margin-left: -4px;
-  font-size: 0.7em;
+  font-size: 0.75em;
   color: #929caf;
 }
 .rbc-slot-selection {
@@ -701,7 +701,15 @@ button.rbc-input::-moz-focus-inner {
           flex-direction: column;
   width: 100%;
   min-height: 0;
-  padding: 0 10px 0 10px;
+}
+.rbc-singleDay-time-view .rbc-singleDay-container {
+  padding: 8px 16px 8px 16px;
+  background: #f5f7f9;
+  border-radius: 5px;
+}
+.rbc-singleDay-time-view .rbc-time-gutter-container {
+  padding: 0 16px 0 16px;
+  margin-top: -8px;
 }
 .rbc-singleDay-time-view .rbc-time-gutter {
   white-space: nowrap;
