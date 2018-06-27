@@ -702,6 +702,9 @@ button.rbc-input::-moz-focus-inner {
   width: 100%;
   min-height: 0;
 }
+.rbc-singleDay-time-view .rbc-singleDay-ceiling {
+  padding: 8px 16px 8px 16px;
+}
 .rbc-singleDay-time-view .rbc-singleDay-container {
   padding: 8px 16px 8px 16px;
   background: #f5f7f9;
@@ -717,6 +720,10 @@ button.rbc-input::-moz-focus-inner {
 .rbc-singleDay-time-view .rbc-row {
   box-sizing: border-box;
   min-height: 20px;
+}
+.rbc-singleDay-time-view .rbc-ceiling {
+  box-sizing: border-box;
+  min-height: 0px;
 }
 .rbc-time-header {
   display: -webkit-flex;
