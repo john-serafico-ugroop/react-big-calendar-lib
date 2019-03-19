@@ -547,7 +547,6 @@ button.rbc-input::-moz-focus-inner {
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
-  min-height: 100%;
   padding-top: 8px;
 }
 .rbc-ruler-row .rbc-ruler-group {
