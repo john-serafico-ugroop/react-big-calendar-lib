@@ -91,17 +91,15 @@ button.rbc-input::-moz-focus-inner {
 }
 .rbc-row-content {
   position: relative;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   -webkit-user-select: none;
   z-index: 4;
 }
 .rbc-row-content-singleDay {
   position: relative;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   -webkit-user-select: none;
   z-index: auto;
 }
@@ -280,9 +278,8 @@ button.rbc-input::-moz-focus-inner {
       -ms-flex: 1 0 0px;
           flex: 1 0 0;
   width: 100%;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   -webkit-user-select: none;
   height: 100%;
 }
@@ -729,8 +726,15 @@ button.rbc-input::-moz-focus-inner {
   min-height: 20px;
 }
 .rbc-singleDay-time-view .rbc-time-gutter-container {
-  padding: 0 16px 0 16px;
+  padding: 0 4px 0 4px;
   margin-top: -8px;
+  font-size: 10px !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .rbc-singleDay-time-view .rbc-time-gutter-container {
+    padding: 0 16px 0 16px;
+    margin-top: -8px;
+  }
 }
 .rbc-singleDay-time-view .rbc-time-gutter {
   white-space: nowrap;
@@ -802,9 +806,8 @@ button.rbc-input::-moz-focus-inner {
 }
 .rbc-time-content > .rbc-day-slot {
   width: 100%;
-  -moz-user-select: none;
-   -ms-user-select: none;
-       user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   -webkit-user-select: none;
 }
 .rbc-current-time-indicator {
